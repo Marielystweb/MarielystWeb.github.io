@@ -1767,8 +1767,8 @@ body {
 }
 .cid-rb1gV8JBXk {
   padding-top: 0px;
-  padding-bottom: 90px;
-  background-color: #232323;
+  padding-bottom: 0px;
+  background-color: #2e2c2a;
 }
 .cid-rb1gV8JBXk .mbr-slider .carousel-control {
   background: #1b1b1b;
@@ -1827,9 +1827,35 @@ body {
   transition: 0.2s background ease-in-out;
   background: linear-gradient(to left, #554346, #45505b) !important;
 }
+.cid-rb3S47r1Fm .google-map {
+  height: 25rem;
+  position: relative;
+}
+.cid-rb3S47r1Fm .google-map iframe {
+  height: 100%;
+  width: 100%;
+}
+.cid-rb3S47r1Fm .google-map [data-state-details] {
+  color: #6b6763;
+  font-family: Montserrat;
+  height: 1.5em;
+  margin-top: -0.75em;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  width: 100%;
+}
+.cid-rb3S47r1Fm .google-map[data-state] {
+  background: #e9e5dc;
+}
+.cid-rb3S47r1Fm .google-map[data-state="loading"] [data-state-details] {
+  display: none;
+}
 .cid-rb1itLYizo {
-  padding-top: 45px;
-  padding-bottom: 60px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   background-color: #2e2e2e;
 }
 @media (max-width: 767px) {
